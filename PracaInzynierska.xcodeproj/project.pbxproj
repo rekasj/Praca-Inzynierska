@@ -7,18 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A21A1F9279E296000CA0AFC /* TrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A21A1F8279E296000CA0AFC /* TrainingModel.swift */; };
+		0A21A1FC279E2A9E00CA0AFC /* TrainingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A21A1FB279E2A9E00CA0AFC /* TrainingManager.swift */; };
+		0A2B360A2783BCAA0043D5CC /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B36092783BCAA0043D5CC /* Exercise.swift */; };
+		0A2B360C2783C5940043D5CC /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B360B2783C5940043D5CC /* ExerciseView.swift */; };
+		0A2DC5F4278891360093669B /* StartTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC5F3278891360093669B /* StartTrainingView.swift */; };
+		0A2DC5F62788F78E0093669B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC5F52788F78E0093669B /* SwiftUIView.swift */; };
+		0A2DC5F92789135F0093669B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC5F82789135F0093669B /* MainView.swift */; };
+		0A4401F82798D5D400EFCDE2 /* ts2Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4401F72798D5D400EFCDE2 /* ts2Target.swift */; };
+		0A4401FA2798D5E700EFCDE2 /* ipscTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4401F92798D5E700EFCDE2 /* ipscTarget.swift */; };
+		0A4401FC2798D61100EFCDE2 /* binaryTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4401FB2798D61100EFCDE2 /* binaryTarget.swift */; };
+		0A4401FE2798D62900EFCDE2 /* customTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4401FD2798D62900EFCDE2 /* customTarget.swift */; };
+		0A515D5C2765451500BAD0AD /* DrillsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A515D5B2765451500BAD0AD /* DrillsModel.swift */; };
+		0A515D5E2765460E00BAD0AD /* SearchDrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A515D5D2765460E00BAD0AD /* SearchDrillView.swift */; };
+		0A515D6027655C1300BAD0AD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A515D5F27655C1300BAD0AD /* Colors.swift */; };
+		0A56FA0C275172F500C10B63 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56FA0B275172F500C10B63 /* TimerView.swift */; };
+		0A56FA0E275173BD00C10B63 /* Timer'sWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56FA0D275173BD00C10B63 /* Timer'sWindow.swift */; };
+		0A6AEB7C2785178600B663D5 /* SingleExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AEB7B2785178600B663D5 /* SingleExerciseView.swift */; };
+		0A6AEB7E27851D0A00B663D5 /* SingleExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AEB7D27851D0A00B663D5 /* SingleExerciseCell.swift */; };
+		0A7D8DEF272CB1DD003EF56F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D8DEE272CB1DD003EF56F /* UserViewModel.swift */; };
+		0A824CDA27826EE700E8E670 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A824CD927826EE700E8E670 /* TabBarView.swift */; };
 		0AA72D9B272A001400FFAAB6 /* PracaInzynierskaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA72D9A272A001400FFAAB6 /* PracaInzynierskaApp.swift */; };
-		0AA72D9D272A001400FFAAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA72D9C272A001400FFAAB6 /* ContentView.swift */; };
 		0AA72D9F272A001400FFAAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA72D9E272A001400FFAAB6 /* Assets.xcassets */; };
 		0AA72DA2272A001400FFAAB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA72DA1272A001400FFAAB6 /* Preview Assets.xcassets */; };
+		0AA72DAE272B54D900FFAAB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AA72DAD272B54D900FFAAB6 /* GoogleService-Info.plist */; };
+		0AB5B520279F708F00BD4572 /* TrainingCDModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B51E279F708F00BD4572 /* TrainingCDModel.xcdatamodeld */; };
+		0AB5B522279F74C600BD4572 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B521279F74C600BD4572 /* CoreDataManager.swift */; };
+		0AB5B526279F829D00BD4572 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B525279F829D00BD4572 /* ExampleView.swift */; };
+		0AB5B528279F943F00BD4572 /* TrainingPreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B527279F943F00BD4572 /* TrainingPreView.swift */; };
+		0AB5B52B279F963800BD4572 /* TrainingPreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B52A279F963800BD4572 /* TrainingPreViewCell.swift */; };
+		0AB5B52D279F97EC00BD4572 /* TrainingPreViewCellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B52C279F97EC00BD4572 /* TrainingPreViewCellCell.swift */; };
+		0AB5B52F27A0259200BD4572 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5B52E27A0259200BD4572 /* AddExerciseView.swift */; };
+		0AFDD44F278B26B1003A8B69 /* MainViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDD44E278B26B1003A8B69 /* MainViewBar.swift */; };
+		0AFDD453278B2757003A8B69 /* MainViewWithoutFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDD452278B2757003A8B69 /* MainViewWithoutFriends.swift */; };
+		0AFDD455278BA668003A8B69 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDD454278BA667003A8B69 /* MainViewCell.swift */; };
+		7FCB971DC9960C748C96C3A3 /* Pods_PracaInzynierska.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D184DE5AF6E15C638EE9EC /* Pods_PracaInzynierska.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A21A1F8279E296000CA0AFC /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
+		0A21A1FB279E2A9E00CA0AFC /* TrainingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingManager.swift; sourceTree = "<group>"; };
+		0A2B36092783BCAA0043D5CC /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		0A2B360B2783C5940043D5CC /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		0A2DC5F3278891360093669B /* StartTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTrainingView.swift; sourceTree = "<group>"; };
+		0A2DC5F52788F78E0093669B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0A2DC5F82789135F0093669B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0A4401F72798D5D400EFCDE2 /* ts2Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ts2Target.swift; sourceTree = "<group>"; };
+		0A4401F92798D5E700EFCDE2 /* ipscTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipscTarget.swift; sourceTree = "<group>"; };
+		0A4401FB2798D61100EFCDE2 /* binaryTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryTarget.swift; sourceTree = "<group>"; };
+		0A4401FD2798D62900EFCDE2 /* customTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTarget.swift; sourceTree = "<group>"; };
+		0A515D5B2765451500BAD0AD /* DrillsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillsModel.swift; sourceTree = "<group>"; };
+		0A515D5D2765460E00BAD0AD /* SearchDrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDrillView.swift; sourceTree = "<group>"; };
+		0A515D5F27655C1300BAD0AD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0A56FA0B275172F500C10B63 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0A56FA0D275173BD00C10B63 /* Timer'sWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer'sWindow.swift"; sourceTree = "<group>"; };
+		0A6AEB7B2785178600B663D5 /* SingleExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExerciseView.swift; sourceTree = "<group>"; };
+		0A6AEB7D27851D0A00B663D5 /* SingleExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExerciseCell.swift; sourceTree = "<group>"; };
+		0A7D8DEE272CB1DD003EF56F /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0A824CD927826EE700E8E670 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		0AA72D97272A001400FFAAB6 /* PracaInzynierska.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracaInzynierska.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA72D9A272A001400FFAAB6 /* PracaInzynierskaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracaInzynierskaApp.swift; sourceTree = "<group>"; };
-		0AA72D9C272A001400FFAAB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AA72D9E272A001400FFAAB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA72DA1272A001400FFAAB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AA72DAD272B54D900FFAAB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/jakubrekas/Documents/SWIFT/PracaInzynierska/PracaInzynierska/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
+		0AB5B51F279F708F00BD4572 /* TrainingCDModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrainingCDModel.xcdatamodel; sourceTree = "<group>"; };
+		0AB5B521279F74C600BD4572 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0AB5B525279F829D00BD4572 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		0AB5B527279F943F00BD4572 /* TrainingPreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPreView.swift; sourceTree = "<group>"; };
+		0AB5B52A279F963800BD4572 /* TrainingPreViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPreViewCell.swift; sourceTree = "<group>"; };
+		0AB5B52C279F97EC00BD4572 /* TrainingPreViewCellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPreViewCellCell.swift; sourceTree = "<group>"; };
+		0AB5B52E27A0259200BD4572 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		0AFDD44E278B26B1003A8B69 /* MainViewBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBar.swift; sourceTree = "<group>"; };
+		0AFDD452278B2757003A8B69 /* MainViewWithoutFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewWithoutFriends.swift; sourceTree = "<group>"; };
+		0AFDD454278BA667003A8B69 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		38F70D08D5C45887BE78B39C /* Pods-PracaInzynierska.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracaInzynierska.release.xcconfig"; path = "Target Support Files/Pods-PracaInzynierska/Pods-PracaInzynierska.release.xcconfig"; sourceTree = "<group>"; };
+		F6D184DE5AF6E15C638EE9EC /* Pods_PracaInzynierska.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracaInzynierska.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D962CAEB965F0EADB7CD0E /* Pods-PracaInzynierska.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracaInzynierska.debug.xcconfig"; path = "Target Support Files/Pods-PracaInzynierska/Pods-PracaInzynierska.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +90,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCB971DC9960C748C96C3A3 /* Pods_PracaInzynierska.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A21A1F7279E03E400CA0AFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A21A1FA279E2A8A00CA0AFC /* Menagers */ = {
+			isa = PBXGroup;
+			children = (
+				0A21A1FB279E2A9E00CA0AFC /* TrainingManager.swift */,
+				0AB5B521279F74C600BD4572 /* CoreDataManager.swift */,
+			);
+			path = Menagers;
+			sourceTree = "<group>";
+		};
+		0A2B360D2783C7310043D5CC /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DC5F3278891360093669B /* StartTrainingView.swift */,
+				0A2B360B2783C5940043D5CC /* ExerciseView.swift */,
+				0A6AEB7B2785178600B663D5 /* SingleExerciseView.swift */,
+				0A6AEB7D27851D0A00B663D5 /* SingleExerciseCell.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		0A2DC5F72789126C0093669B /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				0A56FA0B275172F500C10B63 /* TimerView.swift */,
+				0A56FA0D275173BD00C10B63 /* Timer'sWindow.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		0A4401FF2798D62E00EFCDE2 /* TargetTypes */ = {
+			isa = PBXGroup;
+			children = (
+				0A4401F72798D5D400EFCDE2 /* ts2Target.swift */,
+				0A4401F92798D5E700EFCDE2 /* ipscTarget.swift */,
+				0A4401FB2798D61100EFCDE2 /* binaryTarget.swift */,
+				0A4401FD2798D62900EFCDE2 /* customTarget.swift */,
+			);
+			path = TargetTypes;
+			sourceTree = "<group>";
+		};
+		0A515D5A276544F600BAD0AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A515D5F27655C1300BAD0AD /* Colors.swift */,
+				0A2B36092783BCAA0043D5CC /* Exercise.swift */,
+				0A515D5B2765451500BAD0AD /* DrillsModel.swift */,
+				0A21A1F8279E296000CA0AFC /* TrainingModel.swift */,
+				0A4401FF2798D62E00EFCDE2 /* TargetTypes */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A608DF12731E168000BFF79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A7D8DEE272CB1DD003EF56F /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0AA72D8E272A001400FFAAB6 = {
 			isa = PBXGroup;
 			children = (
 				0AA72D99272A001400FFAAB6 /* PracaInzynierska */,
 				0AA72D98272A001400FFAAB6 /* Products */,
+				EC0E4D099A9F27A133B6C24D /* Pods */,
+				DEA4672111690B7044EEE518 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +185,16 @@
 		0AA72D99272A001400FFAAB6 /* PracaInzynierska */ = {
 			isa = PBXGroup;
 			children = (
+				0A21A1FA279E2A8A00CA0AFC /* Menagers */,
+				0A21A1F7279E03E400CA0AFC /* Resources */,
+				0A515D5A276544F600BAD0AD /* Model */,
+				0A608DF12731E168000BFF79 /* ViewModel */,
 				0AA72D9A272A001400FFAAB6 /* PracaInzynierskaApp.swift */,
-				0AA72D9C272A001400FFAAB6 /* ContentView.swift */,
+				0AA72DAC272A00B400FFAAB6 /* View */,
 				0AA72D9E272A001400FFAAB6 /* Assets.xcassets */,
+				0AA72DAD272B54D900FFAAB6 /* GoogleService-Info.plist */,
 				0AA72DA0272A001400FFAAB6 /* Preview Content */,
+				0AB5B51E279F708F00BD4572 /* TrainingCDModel.xcdatamodeld */,
 			);
 			path = PracaInzynierska;
 			sourceTree = "<group>";
@@ -67,6 +207,60 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0AA72DAC272A00B400FFAAB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A2B360D2783C7310043D5CC /* Training */,
+				0A2DC5F72789126C0093669B /* Timer */,
+				0A515D5D2765460E00BAD0AD /* SearchDrillView.swift */,
+				0A824CD927826EE700E8E670 /* TabBarView.swift */,
+				0A2DC5F52788F78E0093669B /* SwiftUIView.swift */,
+				0AFDD44D278B267A003A8B69 /* Main */,
+				0AB5B525279F829D00BD4572 /* ExampleView.swift */,
+				0AB5B52E27A0259200BD4572 /* AddExerciseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AB5B529279F961B00BD4572 /* TrainingPreView */ = {
+			isa = PBXGroup;
+			children = (
+				0AB5B52C279F97EC00BD4572 /* TrainingPreViewCellCell.swift */,
+				0AB5B527279F943F00BD4572 /* TrainingPreView.swift */,
+				0AB5B52A279F963800BD4572 /* TrainingPreViewCell.swift */,
+			);
+			path = TrainingPreView;
+			sourceTree = "<group>";
+		};
+		0AFDD44D278B267A003A8B69 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DC5F82789135F0093669B /* MainView.swift */,
+				0AFDD44E278B26B1003A8B69 /* MainViewBar.swift */,
+				0AFDD452278B2757003A8B69 /* MainViewWithoutFriends.swift */,
+				0AFDD454278BA667003A8B69 /* MainViewCell.swift */,
+				0AB5B529279F961B00BD4572 /* TrainingPreView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DEA4672111690B7044EEE518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6D184DE5AF6E15C638EE9EC /* Pods_PracaInzynierska.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC0E4D099A9F27A133B6C24D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8D962CAEB965F0EADB7CD0E /* Pods-PracaInzynierska.debug.xcconfig */,
+				38F70D08D5C45887BE78B39C /* Pods-PracaInzynierska.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA72DA5272A001400FFAAB6 /* Build configuration list for PBXNativeTarget "PracaInzynierska" */;
 			buildPhases = (
+				0EB5C3FF7607156EC2A990D7 /* [CP] Check Pods Manifest.lock */,
 				0AA72D93272A001400FFAAB6 /* Sources */,
 				0AA72D94272A001400FFAAB6 /* Frameworks */,
 				0AA72D95272A001400FFAAB6 /* Resources */,
+				1F51962FF20506D889089B64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +323,90 @@
 			files = (
 				0AA72DA2272A001400FFAAB6 /* Preview Assets.xcassets in Resources */,
 				0AA72D9F272A001400FFAAB6 /* Assets.xcassets in Resources */,
+				0AA72DAE272B54D900FFAAB6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB5C3FF7607156EC2A990D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracaInzynierska-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F51962FF20506D889089B64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracaInzynierska/Pods-PracaInzynierska-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracaInzynierska/Pods-PracaInzynierska-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracaInzynierska/Pods-PracaInzynierska-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0AA72D93272A001400FFAAB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA72D9D272A001400FFAAB6 /* ContentView.swift in Sources */,
+				0A56FA0C275172F500C10B63 /* TimerView.swift in Sources */,
+				0A824CDA27826EE700E8E670 /* TabBarView.swift in Sources */,
+				0AB5B528279F943F00BD4572 /* TrainingPreView.swift in Sources */,
+				0A2DC5F62788F78E0093669B /* SwiftUIView.swift in Sources */,
+				0A6AEB7C2785178600B663D5 /* SingleExerciseView.swift in Sources */,
+				0A4401F82798D5D400EFCDE2 /* ts2Target.swift in Sources */,
+				0A515D6027655C1300BAD0AD /* Colors.swift in Sources */,
+				0AFDD453278B2757003A8B69 /* MainViewWithoutFriends.swift in Sources */,
+				0A2B360A2783BCAA0043D5CC /* Exercise.swift in Sources */,
+				0A56FA0E275173BD00C10B63 /* Timer'sWindow.swift in Sources */,
+				0A4401FC2798D61100EFCDE2 /* binaryTarget.swift in Sources */,
+				0AB5B520279F708F00BD4572 /* TrainingCDModel.xcdatamodeld in Sources */,
+				0A2DC5F92789135F0093669B /* MainView.swift in Sources */,
+				0AFDD44F278B26B1003A8B69 /* MainViewBar.swift in Sources */,
+				0AFDD455278BA668003A8B69 /* MainViewCell.swift in Sources */,
+				0AB5B526279F829D00BD4572 /* ExampleView.swift in Sources */,
+				0A2DC5F4278891360093669B /* StartTrainingView.swift in Sources */,
+				0A515D5E2765460E00BAD0AD /* SearchDrillView.swift in Sources */,
+				0A6AEB7E27851D0A00B663D5 /* SingleExerciseCell.swift in Sources */,
+				0A4401FA2798D5E700EFCDE2 /* ipscTarget.swift in Sources */,
+				0A4401FE2798D62900EFCDE2 /* customTarget.swift in Sources */,
+				0A7D8DEF272CB1DD003EF56F /* UserViewModel.swift in Sources */,
+				0AB5B522279F74C600BD4572 /* CoreDataManager.swift in Sources */,
 				0AA72D9B272A001400FFAAB6 /* PracaInzynierskaApp.swift in Sources */,
+				0A2B360C2783C5940043D5CC /* ExerciseView.swift in Sources */,
+				0AB5B52D279F97EC00BD4572 /* TrainingPreViewCellCell.swift in Sources */,
+				0A21A1F9279E296000CA0AFC /* TrainingModel.swift in Sources */,
+				0A515D5C2765451500BAD0AD /* DrillsModel.swift in Sources */,
+				0AB5B52B279F963800BD4572 /* TrainingPreViewCell.swift in Sources */,
+				0A21A1FC279E2A9E00CA0AFC /* TrainingManager.swift in Sources */,
+				0AB5B52F27A0259200BD4572 /* AddExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +531,7 @@
 		};
 		0AA72DA6272A001400FFAAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D962CAEB965F0EADB7CD0E /* Pods-PracaInzynierska.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +544,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -286,12 +556,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0AA72DA7272A001400FFAAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F70D08D5C45887BE78B39C /* Pods-PracaInzynierska.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +575,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +587,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +613,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0AB5B51E279F708F00BD4572 /* TrainingCDModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0AB5B51F279F708F00BD4572 /* TrainingCDModel.xcdatamodel */,
+			);
+			currentVersion = 0AB5B51F279F708F00BD4572 /* TrainingCDModel.xcdatamodel */;
+			path = TrainingCDModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0AA72D8F272A001400FFAAB6 /* Project object */;
 }
