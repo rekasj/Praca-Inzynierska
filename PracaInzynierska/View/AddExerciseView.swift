@@ -13,7 +13,6 @@ struct AddExerciseView: View {
     @State private var selectedType = "-> Choose type <-"
     @State private var showingAlert = false
     @Binding public var isPresented: Bool
-    @Binding public var drills: Drills
     let types = ["-> Choose type <-","forTime", "forPoints", "forFocus"]
     
     var body: some View {
@@ -33,7 +32,7 @@ struct AddExerciseView: View {
                         self.isPresented = true
                         showingAlert = true
                     }
-                    drills.drills.append(Exercise(id: UUID(), name: name, type: selectedType))
+                    CoreDataManager().saveDrill(drillModel: Exercise(id: UUID(), name: name, type: selectedType))
                     self.isPresented = false
                 }
                 .alert("Write name or choose type", isPresented: $showingAlert) {
@@ -53,7 +52,7 @@ struct AddExerciseView: View {
 
 struct AddExerciseView_Previews: PreviewProvider {
     static var previews: some View {
-        AddExerciseView(isPresented: .constant(false), drills: .constant(Drills()))
+        AddExerciseView(isPresented: .constant(false))
             .previewLayout(.sizeThatFits)
     }
 }

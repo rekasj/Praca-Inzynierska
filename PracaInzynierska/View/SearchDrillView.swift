@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct SearchDrillView: View {
-    @State private var drills = Drills()
     @State private var colors = Colors()
+    @State private var drills = [Exercise]()
     @State private var searchingFor = ""
     @State private var addIsPresented: Bool = false
     @Binding var selectedDrill: Exercise
@@ -20,18 +20,18 @@ struct SearchDrillView: View {
             List {
                 ForEach(results) { drill in
                     Button(action:{
-                        self.selectedDrill = drill
-                        if self.selectedDrill.name == " Własny" {
+                        if drill.name == " Własny" {
                             self.addIsPresented = true
                         } else {
-                        self.isPresented = false
+                            self.isPresented = false
                         }
                     }, label:{
                         Text("\(drill.name)")
                     }).sheet(isPresented: self.$addIsPresented, onDismiss: {
-                        drills.drills = drills.drills.sorted(by: {$0.name < $1.name})
+                        getDrills()
+                        drills = drills.sorted(by: {$0.name < $1.name})
                     }) {
-                        AddExerciseView(isPresented: $addIsPresented, drills: $drills)
+                        AddExerciseView(isPresented: $addIsPresented)
                     }
                 }
                 .navigationBarTitle("Drills").foregroundColor(colors.mainColor)
@@ -44,18 +44,31 @@ struct SearchDrillView: View {
 
         .onAppear() {
             UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(colors.mainColor)]
-            drills.drills = drills.drills.sorted(by: {$0.name < $1.name})
+            getDrills()
+            drills = drills.sorted(by: {$0.name < $1.name})
         }
         .onDisappear() {
             self.isPresented = false
         }
     }
     
+    func getDrills() {
+        drills = [Exercise]()
+        var tempDrills: [DrillDataModel] = [DrillDataModel]()
+        
+        tempDrills = CoreDataManager().getDrills()
+        
+        for drill in tempDrills {
+            drills.append(Exercise(id: drill.id ?? UUID(),
+                                      name: drill.name ?? "Error",
+                                      type: drill.type ?? "Error"))
+        }
+    }
     var results: [Exercise] {
         if searchingFor.isEmpty {
-            return drills.drills
+            return drills
         } else {
-            return drills.drills.filter { $0.name.contains(searchingFor)}
+            return drills.filter { $0.name.contains(searchingFor)}
         }
     }
 }

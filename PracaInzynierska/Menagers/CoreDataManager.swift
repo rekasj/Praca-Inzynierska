@@ -18,6 +18,11 @@ class CoreDataManager {
             if let error = error {
                 fatalError("Core Data Store failed \(error.localizedDescription)")
             }
+            if self.getDrills().isEmpty {
+                for i in Drills().drills {
+                    self.saveDrill(drillModel: i)
+                }
+            }
         }
     }
     
@@ -40,6 +45,7 @@ class CoreDataManager {
             return []
         }
     }
+    
     func getSets() -> [SetsDataModel] {
         let fetchRequest: NSFetchRequest<SetsDataModel> = SetsDataModel.fetchRequest()
         
@@ -50,12 +56,32 @@ class CoreDataManager {
         }
     }
     
+    func getDrills() -> [DrillDataModel] {
+        let fetchRequest: NSFetchRequest<DrillDataModel> = DrillDataModel.fetchRequest()
+        
+        do {
+            return try persistentContainer.viewContext.fetch(fetchRequest)
+        } catch {
+            return []
+        }
+    }
     
+    func saveDrill(drillModel: Exercise) {
+        let drillDataModel = DrillDataModel(context: persistentContainer.viewContext)
+        
+        drillDataModel.id = drillModel.id
+        drillDataModel.name = drillModel.name
+        drillDataModel.type = drillModel.type
+        
+        do {
+            try persistentContainer.viewContext.save()
+        } catch {
+            print("Failed \(error)")
+        }
+    }
     
     func saveTraining(trainingModel: TrainingModel) {
         let trainingDataModel = TrainingDataModel(context: persistentContainer.viewContext)
-        
-      
         
         trainingDataModel.id = trainingModel.id
         trainingDataModel.title = trainingModel.title
@@ -66,8 +92,6 @@ class CoreDataManager {
                 saveExercise(training: trainingModel, exercise: exercise)
             }
         }
-        
-        
         
         do {
             try persistentContainer.viewContext.save()
@@ -110,5 +134,4 @@ class CoreDataManager {
             print("Failed \(error)")
         }
     }
-    
 }
